@@ -80,7 +80,7 @@ public class UnitTests {
     }
 
     @Test
-    public void wennGeldNichtFuerTicketReichtWirdEsKomplettZurueckGegeben(){
+    public void WennGeldNichtFuerTicketReichtWirdEsKomplettZurueckGegeben(){
         //Arrange
         Kasse meineKasse = new Kasse();
 
@@ -90,4 +90,6 @@ public class UnitTests {
         //Assert
         assertEquals(meineAusgabe.RueckGeld, 4.00);
     }
+
+
 }
